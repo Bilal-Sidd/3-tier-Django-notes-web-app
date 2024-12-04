@@ -24,3 +24,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignore MySQL data directory
+data/mysql/db/
+
+# Ignore Python cache and environment files
+*.pyc
+__pycache__/
+.env
+
+# Ignore Docker volumes
+data/
