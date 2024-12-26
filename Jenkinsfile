@@ -49,7 +49,7 @@ pipeline {
         
         stage("Deploy") {
             steps {
-                echo "this is deploying the code after editing and after doing everything"
+                echo "this is deploying the code after editing and after doing everything finally"
                 sh "docker-compose down && docker-compose -f docker-compose.yml up -d"
             }
         }
